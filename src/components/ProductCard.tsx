@@ -186,12 +186,8 @@ export default function ProductCard({ product }: ProductCardProps) {
             </span>
           </div>
 
-          {/* Quick Add Button - Shows on hover */}
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileHover={{ opacity: 1, y: 0 }}
-            className="absolute inset-x-0 bottom-0 p-4 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"
-          >
+          {/* Quick Add Button - Always visible on mobile, shows on hover on desktop */}
+          <div className="absolute inset-x-0 bottom-0 p-4 bg-gradient-to-t from-black/60 to-transparent opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity">
             <motion.button
               onClick={handleAddToCart}
               whileHover={{ scale: 1.05 }}
@@ -218,7 +214,7 @@ export default function ProductCard({ product }: ProductCardProps) {
                 "أضف إلى السلة"
               )}
             </motion.button>
-          </motion.div>
+          </div>
         </div>
 
         {/* Content */}
