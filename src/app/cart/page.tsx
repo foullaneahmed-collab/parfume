@@ -55,7 +55,7 @@ export default function CartPage() {
     const message = `مرحبا! أريد تقديم طلب:%0A%0A${orderDetails}%0A%0Aالمجموع: ${total} DH%0A%0Aيرجى تأكيد طلبي. شكراً!`;
 
     // Replace with your actual WhatsApp number (format: country code + number, no + or spaces)
-    const phoneNumber = "21246880774"; // Your WhatsApp number (Morocco)
+    const phoneNumber = "212646880774"; // Your WhatsApp number (Morocco)
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
 
     // Open WhatsApp
