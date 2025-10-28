@@ -1,0 +1,29 @@
+{
+  "name": "Parfume Nadia - عطور فاخرة",
+  "short_name": "Parfume Nadia",
+  "description": "متجر عطور فاخرة للرجال والنساء",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#bfa094",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "cache_policy": {
+    "default": "cache-first",
+    "images": "cache-first",
+    "api": "network-first"
+  }
+}

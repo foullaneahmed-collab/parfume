@@ -1,0 +1,22 @@
+{
+  "version": "1.0.0",
+  "timestamp": "2024-01-01T00:00:00Z",
+  "assets": {
+    "images": {
+      "maxAge": 86400,
+      "immutable": false
+    },
+    "styles": {
+      "maxAge": 86400,
+      "immutable": false
+    },
+    "scripts": {
+      "maxAge": 86400,
+      "immutable": false
+    },
+    "api": {
+      "maxAge": 3600,
+      "staleWhileRevalidate": 86400
+    }
+  }
+}
